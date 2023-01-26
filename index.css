@@ -1,12 +1,21 @@
 
-}
 
-.patrikjaja{
-    color: rgb(20, 218, 96);
+div{
+    border: 1px solid;
 }
-
 
 .tveir_dalkar{
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: 2fr 2fr;
+}
+
+
+.þrír_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fjórir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
