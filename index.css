@@ -1,4 +1,7 @@
-
+.box{
+    grid-gap: 10px;
+    border-radius: 5px;
+}
 
 div{
     border: 1px solid;
@@ -17,5 +20,10 @@ div{
 
 .fjórir_dalkar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+
+.einn_dalki{
+    display: grid;
+    grid-template-columns: 1fr;
 }
