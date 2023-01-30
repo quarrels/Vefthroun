@@ -1,0 +1,19 @@
+.dalkar_2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:450px){
+
+    .dalkar_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .dalkar_2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
