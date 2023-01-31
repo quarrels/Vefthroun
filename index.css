@@ -29,3 +29,104 @@ div{
     display: grid;
     grid-template-columns: 6fr;
 }
+.dalkar_2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:450px){
+
+    .dalkar_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .dalkar_2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.box{
+    grid-gap: 10px;
+    border-radius: 10px;
+}
+
+div{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "a"
+    "b"
+    "c";
+    grid-gap: 5px;
+}
+.a{
+    grid-area: a;
+    background: yellow;
+}
+
+.b{
+    grid-area: b;
+    background: red;
+}
+.c{
+    grid-area: c;
+    background: green;
+}
+@media screen and (min-width:450px) {
+    
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a a"
+    "b c";
+    grid-gap: 5px;
+}
+.a{
+    grid-area: a;
+    background: yellow;
+}
+
+.b{
+    grid-area: b;
+    background: red;
+}
+.c{
+    grid-area: c;
+    background: green;
+}
+}
+
+@media screen and (min-width:1000px) {
+    
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "a b c";
+        grid-gap: 5px;
+    }
+    .a{
+        grid-area: a;
+        background: yellow;
+    }
+    
+    .b{
+        grid-area: b;
+        background: red;
+    }
+    .c{
+        grid-area: c;
+        background: green;
+    }
+    }
