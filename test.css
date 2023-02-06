@@ -2,21 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
 }
-@media screen and (min-width:450px){
 
-    .dalkar_2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-}
-
-@media screen and (min-width:1000px) {
-    .dalkar_2{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
 .box{
     grid-gap: 10px;
     border-radius: 10px;
@@ -37,10 +23,6 @@ div{
     "d";
     grid-gap: 5px;
 }
-.a{
-    grid-area: a;
-    background: yellow;
-}
 
 .b{
     grid-area: b;
@@ -50,12 +32,6 @@ div{
     grid-area: c;
     background: green;
 }
-.d{
-    grid-area: d;
-    background: blue;
-}
-@media screen and (min-width:450px) {
-    
 
 .wrapper{
     display: grid;
@@ -85,7 +61,6 @@ div{
 }
 
 @media screen and (min-width:1000px) {
-    
 
     .wrapper{
         display: grid;
