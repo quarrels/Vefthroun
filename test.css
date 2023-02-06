@@ -1,3 +1,15 @@
+body{
+    background-color:#9B9FA6;
+}
+.valmynd{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d";
+}
 .dalkar_2{
     display: grid;
     grid-template-columns: 1fr;
@@ -11,7 +23,7 @@
 div{
     padding: 10px;
     margin: 5px;
-    border: 1px solid;
+    border: none;
 }
 .wrapper{
     display: grid;
@@ -23,80 +35,244 @@ div{
     "d";
     grid-gap: 5px;
 }
+.rapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "e"
+    "f"
+    "g";
+}
+.scrapper{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "h"
+    "j"
+    "k"
+    "l";
+    grid-gap: 5px;
+}
+.a{
+    grid-area: a;
+    background: grey;
+}
 
 .b{
     grid-area: b;
-    background: red;
+    background: grey;
 }
 .c{
     grid-area: c;
-    background: green;
+    background: grey;
 }
+.d{
+    grid-area: d;
+    background: grey;
+}
+.e{
+    grid-area: e;
+    background: grey;
+}
+.f{
+    grid-area: f;
+    background: grey;
+}
+.g{
+    grid-area: g;
+    background: grey;
+}
+.h{
+    grid-area: h;
+    background: grey;
+}
+.j{
+    grid-area: j;
+    background: grey;
+}
+.k{
+    grid-area: k;
+    background: grey;
+}
+.l{
+    grid-area: l;
+    background: grey;
+}
+
+@media screen and (min-width:450px) {
+.dalkar_2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "e f"
+    "g g";
+    grid-gap: 5px;
+}
+.scrapper{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h j"
+    "k l";
+    grid-gap: 5px;
+}
+
 
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "a b"
-    "c c";
+    "c d";
     grid-gap: 5px;
 }
 .a{
     grid-area: a;
-    background: yellow;
+    background: grey;
 }
 
 .b{
     grid-area: b;
-    background: red;
+    background: grey;
 }
 .c{
     grid-area: c;
-    background: green;
+    background: grey;
 }
 .d{
     grid-area: d;
-    background: blue;
+    background: grey;
+}
+.e{
+    grid-area: e;
+    background: grey;
+}
+.f{
+    grid-area: f;
+    background: grey;
+}
+.g{
+    grid-area: g;
+    background: grey;
+}
+.h{
+    grid-area: h;
+    background: grey;
+}
+.j{
+    grid-area: j;
+    background: grey;
+}
+.k{
+    grid-area: k;
+    background: grey;
+}
+.l{
+    grid-area: l;
+    background: grey;
 }
 }
 
 @media screen and (min-width:1000px) {
 
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-         "a b c d";
-        grid-gap: 5px;
-    }
-    .a{
-        grid-area: a;
-        background: yellow;
-    }
-    
-    .b{
-        grid-area: b;
-        background: red;
-    }
-    .c{
-        grid-area: c;
-        background: green;
-    }
-    .d{
-        grid-area: d;
-        background: blue;
-    }
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    nav{
-        background-color: black;
-        padding: 10px;
-    }
-    .valmynd{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
+.rapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "e f g";
+    grid-gap: 5px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "a b c d";
+    grid-gap: 5px;
+}
+.scrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    "h j"
+    "k l";
+    grid-gap: 5px;
+}
+.valmynd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.a{
+    grid-area: a;
+    background: grey;
+}
+
+.b{
+    grid-area: b;
+    background: grey;
+}
+.c{
+    grid-area: c;
+    background: grey;
+}
+.d{
+    grid-area: d;
+    background: grey;
+}
+.e{
+    grid-area: e;
+    background: grey;
+}
+.f{
+    grid-area: f;
+    background: grey;
+}
+.g{
+    grid-area: g;
+    background: grey;
+}
+.h{
+    grid-area: h;
+    background: grey;
+}
+.j{
+    grid-area: j;
+    background: grey;
+}
+.k{
+    grid-area: k;
+    background: grey;
+}
+.l{
+    grid-area: l;
+    background: grey;
+}
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: mediumaquamarine;
+}
+nav{
+    background-color: grey;
+    padding: 10px;
+}
+.valmynd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+a:visited{
+color:green;
+}
+.boks{
+    grid-gap: 10px;
+    border:none;
+}
