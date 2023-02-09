@@ -1,6 +1,8 @@
 body{
     background-color:#9B9FA6;
-    }
+    border:none;
+}
+
     .valmynd{
     display: grid;
     grid-template-columns: 1fr;
