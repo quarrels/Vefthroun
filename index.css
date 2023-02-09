@@ -282,3 +282,6 @@ body{
     display:block;
     height:auto;   
     }
+    .myndaborder{
+        border:solid;
+    }
