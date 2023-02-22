@@ -256,11 +256,11 @@ body{
     
     }
     a{
-    color: white;
+    color: skyblue;
     text-decoration: none;
     }
     a:hover{
-    color: mediumaquamarine;
+        text-decoration: underline;
     }
     nav{
     background-color: grey;
@@ -272,7 +272,7 @@ body{
     justify-items: center;
     }
     a:visited{
-    color:green;
+    color:purple;
     }
     .boks{
     grid-gap: 10px;
@@ -281,4 +281,7 @@ body{
     max-width:100%;
     display:block;
     height:auto;   
+    }
+    .myndaborder{
+        border:solid;
     }
