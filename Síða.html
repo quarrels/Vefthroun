@@ -17,7 +17,7 @@
     </header>
     <iframe width="100%" height="800" src="https://www.youtube.com/embed/UkB3iVJ4rOQ" title="Jasiah X Yung Bans - Shenanigans (prod. Jasiah &amp; Ronny J)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <body>
-        <center><img class="box" src="/Vefthroun/myndir/jasiah.jpg" alt="Jasiah" style="width:360px;height:360px;"></center>
+        <center><img class="box" src="/myndir/jasiah.jpg" alt="Jasiah" style="width:360px;height:360px;"></center>
     </body>
 
     <body>
@@ -29,10 +29,10 @@
         </div>
         
         <picture class="myndaborder">
-            <center><source media="(min-width:1280px)" srcset="inverskur-gym-man.jpg">
-            <source media="(min-width:960px)" srcset="inverskur-gym-man.jpg">
-            <source media="(min-width:480px)" srcset="inverskur-gym-man.jpg">
-            <img class="box" src="/Vefthroun/myndir/inverskur-gym-man.jpg" alt="gym" style="width: 500px; height:500;"></center>
+            <center><source media="(min-width:1280px)" srcset="myndir/inverskur-gym-man.jpg">
+            <source media="(min-width:960px)" srcset="myndir/inverskur-gym-man.jpg">
+            <source media="(min-width:480px)" srcset="myndir/inverskur-gym-man.jpg">
+            <img class="box" src="myndir/inverskur-gym-man.jpg" alt="gym" style="width: 500px; height:500;"></center>
         </picture>
         
         <div class="rapper"> 
@@ -51,7 +51,7 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3JszYnp2kuj6bKXCK3bvES?utm_source=generator" width="33%" height="10%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     
 
-        <table>
+        <table class="boks">
             <caption>Listi af frábærum lögum frá Jasiah</caption>
             <thead>
                 <tr>
@@ -91,7 +91,7 @@
             </tbody>
         </table>
     
-    <form>
+    <form class="boks">
         <fieldset>
             <legend>Hafðu Samband: </legend>
             Nafn: <br>
@@ -101,9 +101,28 @@
             <input type="Email" required>
             <br><br>
             Veldu Möguleika: <br>
-            Kl. 16:00  <input type="Radio" name="Kl">
+            Kl. 16:00  <input type="checkbox" name="Kl"  >
+            Kl. 17:00  <input type="checkbox" name="Kl"  >
+            Kl. 18:00  <input type="checkbox" name="Kl"  >
             <br><br>
-            <input type="Submit" value="Hnappur">
+            Hvor er betri?: <br>
+            <input type="Radio" name="hvor er betri?" id="Overwatch" value="OVERWATCH" >
+            <label for="Overwatch" >Overwatch</label> <br>
+            <input type="Radio" name="hvor er betri?" id="Paladins" value="PALADINS" >
+            <label for="Paladins" >Paladins</label> <br>
+            <br><br>
+            Veldu Land: <br>
+            <select>
+                <option value="">Japan</option>
+                <option value="">China</option>
+                <option value="">Russia</option>
+                <option value="">America</option>
+            </select>
+            <br><br>
+
+            Sláðu Inn Athugasemd<br>
+            <input type="Submit" Value="Hnappur">
+            <br><br>
         </fieldset>
     </form>
     

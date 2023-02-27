@@ -298,6 +298,12 @@ border:1px solid black;
 th{
 border:1px solid black;
 }
-fieldset{
-    grid-gap: 30px;
+form{
+    border:2px solid black;
+}
+                #líka hægt að setja number fyrir öll tölu svæðin og password fyrir öll password svæðin
+input[type=text] {  
+border-width:3px;
+border-color: red;
+
 }
