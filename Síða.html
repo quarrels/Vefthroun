@@ -94,16 +94,15 @@
     <form class="boks" >
         <fieldset>
             
-            <legend>Hafðu Samband: </legend>
+            <legend>Feedback: </legend>
             Nafn: <br>
             <input type="Text" required>
             <br><br>
             Email:<br>
             <input type="Email" required>
             <br><br>
-            <label for="Simi"> Settu inn símanúmerið þitt:</label><br>
-            <br><br>
-            <input type="tel" id="simi" name="SIMI" pattern="[0-9]-{3} [0-9]-[4]" required>
+            <label for="Simi"> Númer:</label><br>            
+            <input type="tel" id="simi" name="SIMI" placeholder="123-1234" pattern="[0-9]-{3} [0-9]-{4}" required>
             <br><br>
             Hvað finnst þér um jasiah?: <br>
             Hann er mjög góður <input type="checkbox" checked required>
@@ -129,12 +128,13 @@
             Hvenær ertu fæddur?: <br>
             <input type="date">
             <br><br>
-
+            <textarea onfocus="if(this.value==this.defaultValue)this.value=''"    
+            onblur="if(this.value=='')this.value=this.defaultValue" > Sláðu inn textann hér</textarea>
+            <br><br>
             Sláðu Inn Athugasemd<br>
             <input type="Submit" Value="Hnappur">
             <br><br>
-            <textarea onfocus="if(this.value==this.defaultValue)this.value=''"    
-            onblur="if(this.value=='')this.value=this.defaultValue" > Sláðu inn textann hér</textarea>
+            
         </fieldset>
     </form>
     
