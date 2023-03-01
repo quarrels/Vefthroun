@@ -17,7 +17,7 @@
     </header>
     <iframe width="100%" height="800" src="https://www.youtube.com/embed/UkB3iVJ4rOQ" title="Jasiah X Yung Bans - Shenanigans (prod. Jasiah &amp; Ronny J)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <body>
-        <center><img class="box" src="/myndir/jasiah.jpg" alt="Jasiah" style="width:360px;height:360px;"></center>
+        <center><img class="box" src="jasiah.jpg" alt="Jasiah" style="width:360px;height:360px;"></center>
     </body>
 
     <body>
@@ -29,15 +29,15 @@
         </div>
         
         <picture class="myndaborder">
-            <center><source media="(min-width:1280px)" srcset="myndir/inverskur-gym-man.jpg">
-            <source media="(min-width:960px)" srcset="myndir/inverskur-gym-man.jpg">
-            <source media="(min-width:480px)" srcset="myndir/inverskur-gym-man.jpg">
-            <img class="box" src="myndir/inverskur-gym-man.jpg" alt="gym" style="width: 500px; height:500;"></center>
+            <center><source media="(min-width:1280px)" srcset="inverskur-gym-man.jpg">
+            <source media="(min-width:960px)" srcset="inverskur-gym-man.jpg">
+            <source media="(min-width:480px)" srcset="inverskur-gym-man.jpg">
+            <img class="box" src="inverskur-gym-man.jpg" alt="gym" style="width: 500px; height:500;"></center>
         </picture>
         
         <div class="rapper"> 
             <div class="e box"><b>Tónlistin</b>. Tónlistin sem Jasiah flytur eflir mann upp svaka, ég hlusta mikið á hann þegar ég er í ræktinni.</div>
-            <div class="f box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, harum aut. Impedit maiores nisi ut minus sunt repellendus? Deserunt vel consequuntur reprehenderit nostrum eos tempora dolorem nobis, pariatur magni et.</div>
+            <div class="f box"></div>
             <div class="g box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quo cumque, doloremque soluta sed incidunt ad placeat esse consequuntur enim. Ducimus at sed molestias reiciendis labore omnis eaque necessitatibus voluptas. </div>
         </div>
         <div class="scrapper boks">
@@ -91,8 +91,9 @@
             </tbody>
         </table>
     
-    <form class="boks">
+    <form class="boks" >
         <fieldset>
+            
             <legend>Hafðu Samband: </legend>
             Nafn: <br>
             <input type="Text" required>
@@ -100,16 +101,22 @@
             Email:<br>
             <input type="Email" required>
             <br><br>
-            Veldu Möguleika: <br>
-            Kl. 16:00  <input type="checkbox" name="Kl"  >
-            Kl. 17:00  <input type="checkbox" name="Kl"  >
-            Kl. 18:00  <input type="checkbox" name="Kl"  >
+            <label for="Simi"> Settu inn símanúmerið þitt:</label><br>
+            <br><br>
+            <input type="tel" id="simi" name="SIMI" pattern="[0-9]-{3} [0-9]-[4]" required>
+            <br><br>
+            Hvað finnst þér um jasiah?: <br>
+            Hann er mjög góður <input type="checkbox" checked required>
+            <br><br>
+            Hann er ágætur <input type="checkbox">
+            <br><br>
+            Hann er ekki góður <input type="checkbox">
             <br><br>
             Hvor er betri?: <br>
-            <input type="Radio" name="hvor er betri?" id="Overwatch" value="OVERWATCH" >
-            <label for="Overwatch" >Overwatch</label> <br>
-            <input type="Radio" name="hvor er betri?" id="Paladins" value="PALADINS" >
-            <label for="Paladins" >Paladins</label> <br>
+            <input type="Radio" name="hvor er betri?" id="Shenanigans" value="SHENANIGANS" >
+            <label for="Shenanigans" >Shenanigans</label> <br>
+            <input type="Radio" name="hvor er betri?" id="Unintelligable" value="UNINTELLIGABLE" >
+            <label for="Unintelligable" >Unintelligable</label> <br>
             <br><br>
             Veldu Land: <br>
             <select>
@@ -119,10 +126,15 @@
                 <option value="">America</option>
             </select>
             <br><br>
+            Hvenær ertu fæddur?: <br>
+            <input type="date">
+            <br><br>
 
             Sláðu Inn Athugasemd<br>
             <input type="Submit" Value="Hnappur">
             <br><br>
+            <textarea onfocus="if(this.value==this.defaultValue)this.value=''"    
+            onblur="if(this.value=='')this.value=this.defaultValue" > Sláðu inn textann hér</textarea>
         </fieldset>
     </form>
     

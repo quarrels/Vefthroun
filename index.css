@@ -105,6 +105,12 @@ background: grey;
 }
 
 @media screen and (min-width:450px) {
+iframe{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+
 .dalkar_2{
 display:grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -307,3 +313,4 @@ border-width:3px;
 border-color: red;
 
 }
+
